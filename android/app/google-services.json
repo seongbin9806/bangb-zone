@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "581705424083",
+    "project_id": "bangb-zone",
+    "storage_bucket": "bangb-zone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581705424083:android:d095202f6882ed7356c826",
+        "android_client_info": {
+          "package_name": "com.bangb_zone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR26dGK6NMmEfRIY9WES83ZvO4qX_4T4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+rootProject.name = 'bangb_zone'
+include ':react-native-android-installed-apps'
+project(':react-native-android-installed-apps').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-android-installed-apps/android')
+
+include ':react-native-android-packagemanager'
+project(':react-native-android-packagemanager').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-android-packagemanager/android')
+
+include ':react-native-send-intent'
+project(':react-native-send-intent').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-send-intent/android')
+
+include ':react-native-sms'
+project(':react-native-sms').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sms/android')
+
+include ':react-native-send-intent'
+project(':react-native-send-intent').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-send-intent/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+
+include ':RNSendIntentModule', ':app'
+project(':RNSendIntentModule').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-send-intent/android')
+
+include ':sp-react-native-mqtt'
+project(':sp-react-native-mqtt').projectDir = new File(rootProject.projectDir,  '../node_modules/sp-react-native-mqtt/android')
